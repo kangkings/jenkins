@@ -10,6 +10,7 @@ public class TestController {
 
     @GetMapping("/test01")
     public String test01(){
+        System.out.println("코드 수정 1차");
         return "test01";
     }
 }
